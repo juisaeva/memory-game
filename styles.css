@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px;
+}
+
+img {
+  cursor: pointer;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  background-color: yellow;
+  display: inline-block;
+}
+
+#grid {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container   {
+  width: 600px;
+  margin: 0 auto;
+}
